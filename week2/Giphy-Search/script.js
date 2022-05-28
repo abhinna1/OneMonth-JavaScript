@@ -1,3 +1,4 @@
 document.getElementById('searchBtn').addEventListener('click', function func(){
-    console.log("pressed");
+    var input = document.querySelector('.searchBar');
+    console.log(input.value);
 })
