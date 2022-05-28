@@ -1,0 +1,36 @@
+.container{
+    display:flex;
+    justify-content: center;
+    margin: 3%;
+}
+
+.searchBtn{
+    height:35px;
+}
+
+.searchBar{
+    height:30px;
+}
+
+.p-50{
+    padding: 50px;
+}
+
+.mr-50{
+    margin-right: 50px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.b-round{
+    border-radius:4px;
+}
+.w-300{
+    width: 300px;
+}
+
+.success{
+    background-color: #5cb85c;
+}

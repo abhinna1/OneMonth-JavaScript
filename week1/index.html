@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Oprah Likes You. And so do other people.</title>
+
+		<style>
+			
+			/* Basic CSS comment */	
+			body {
+				background: #BBB;
+				color: white;
+				width: 960px;
+				margin: 0 auto;
+			}
+
+			h1 {
+				font-size: 80px;
+				color: #333;
+			}
+			img{
+				width:20%;
+				display:block;
+			}
+
+		</style>
+
+		<script>
+			var username = prompt("Please enter your name.")
+			var car = new Array("BMW", "Mercedes", "Masarati")
+
+			if (username==="Abhinna" || username === "Chris"){
+				var randomNum = Math.floor(Math.random()*car.length);
+				var currentCar = car[randomNum]
+				document.write("<h1> Hello" + username + "you won a " + currentCar + ". </h1>");
+
+				if(currentCar === "BMW"){
+					document.write("<img src='./images/bmw.jpg' alt='BMW'>");
+				}
+				else if(currentCar === "Mercedes"){
+					document.write("<img src='./images/Mercedes.jpg' alt='BMW'>");
+				}
+				else if(currentCar === "Masarati"){
+					document.write("<img src='./images/Masarati.jpg' alt='BMW'>");	
+				}
+				
+			}
+			else {
+				document.write("<h1> Hello " + username + ". </h1>")
+			}
+			console.log(Math.floor(Math.random()*car.length))
+			
+		</script>
+	</head>
+ 	
+	<body>
+		<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2019%2F01%2Foprah-winfrey-2-2000.jpg" alt="Oprah">
+    </body>
+
+
+</html>
